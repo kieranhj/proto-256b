@@ -11,5 +11,5 @@ if %ERRORLEVEL% neq 0 (
 )
 
 echo Copying binary...
-set HOSTFS=..\..\Arculator\hostfs
+set HOSTFS=..\..\Arculator\hostfs\Builds
 copy build\proto-256b.bin "%HOSTFS%\256b,ff8"
