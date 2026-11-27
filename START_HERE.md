@@ -16,7 +16,7 @@ Prototypes for an Acorn Archimedes 256-byte demo (intro), in ARM assembler (vasm
 
 ## Build and run
 - `make`: runs `make.bat` (works, 2026-11-22): assembles `build\proto-256b.bin` (128 bytes) and copies
-  it to `..\..\Arculator_V2.0_Windows\hostfs\256b,ff8` (the D:\archie junction into D:\tools\archie).
+  it to `..\..\Arculator\hostfs\256b,ff8` (the D:\archie junction into D:\tools\archie).
 - Tools: only the bundled vasm.
 - Run: in Arculator 2.0, run `256b` from the HostFS filer.
 
